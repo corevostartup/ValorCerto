@@ -1,0 +1,21 @@
+{
+  "name": "valorcerto",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Backend serverless MVP do app ValorCerto",
+  "scripts": {
+    "build": "mkdir -p web/dist && cp web/index.html web/dist/index.html",
+    "dev": "netlify dev",
+    "lint": "echo \"Sem lint configurado\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "axios": "^1.8.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.38.0"
+  }
+}
+
