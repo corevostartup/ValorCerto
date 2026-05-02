@@ -14,7 +14,15 @@ Projeto com app iOS nativo em `iOS` e backend serverless para deploy no Netlify.
 - `GET /api/health`
 - `POST /api/price-check`
 
-Exemplo de payload:
+Exemplo de payload (só código de barras — retorna apenas a média; `user_price` é opcional para comparação depois):
+
+```json
+{
+  "barcode": "7891000315507"
+}
+```
+
+Com parâmetro opcional para comparar (“caro/barato/no preço”):
 
 ```json
 {
