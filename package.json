@@ -4,7 +4,7 @@
   "private": true,
   "description": "Backend serverless MVP do app ValorCerto",
   "scripts": {
-    "build": "mkdir -p web/dist && cp web/index.html web/dist/index.html",
+    "build": "mkdir -p web/dist/privacy && cp web/index.html web/dist/index.html && cp web/privacy.html web/dist/privacy.html && cp web/privacy.html web/dist/privacy/index.html",
     "dev": "netlify dev",
     "lint": "echo \"Sem lint configurado\""
   },
